@@ -23,13 +23,16 @@
     "email": "jaredhanson@gmail.com",
     "url": "http://www.jaredhanson.net/"
   },
-  "licenses": [ {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT"
-  } ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
   "main": "./lib/passport-http",
   "dependencies": {
-    "passport-strategy": "1.x.x"
+    "passport-strategy": "1.x.x",
+    "passport": "^0.3.0"
   },
   "devDependencies": {
     "vows": "0.8.x"
